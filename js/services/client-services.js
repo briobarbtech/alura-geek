@@ -1,5 +1,4 @@
-function traerProductos(){
-    const url = "https://briobarbtech.github.io/api-geek.github.io/productos.json"
+function traerProductos(url){
     return fetch(url).then( respuesta => {
       return respuesta.json() 
     })

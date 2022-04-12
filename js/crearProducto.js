@@ -1,6 +1,8 @@
 import { clientServices } from "./services/client-services.js";
 
 const starwarsProductos = document.querySelector("#star-wars-productos");
+const consolasProductos = document.querySelector("#consolas-productos");
+const variosProductos = document.querySelector("#varios-productos");
 
 
 function crearTarjetaProducto(nombre,img,precio,enlace){
@@ -13,13 +15,17 @@ function crearTarjetaProducto(nombre,img,precio,enlace){
     </li>` 
     const nuevoProducto = document.createElement('li')
     nuevoProducto.innerHTML = tarjetaDeProducto;
-    starwarsProductos.appendChild(nuevoProducto);
+    return nuevoProducto
+    
 }   
 
-async function mostrarData(){
-    const data = await clientServices.traerProductos();
+async function mostrarData(url,seccion){
+    const data = await clientServices.traerProductos(url);
     data.forEach((producto) => {
-        crearTarjetaProducto(producto.nombreProducto,producto.imgProducto,producto.precioProducto,producto.enlaceProducto)
+        const nuevoProducto = crearTarjetaProducto(producto.nombreProducto,producto.imgProducto,producto.precioProducto,producto.enlaceProducto)
+        seccion.appendChild(nuevoProducto);
     })
 }
-mostrarData()
+mostrarData("https://briobarbtech.github.io/api-geek.github.io/productos.json",starwarsProductos)
+mostrarData("https://briobarbtech.github.io/api-geek.github.io/consoles.json",consolasProductos)
+mostrarData("https://briobarbtech.github.io/api-geek.github.io/various.json",variosProductos)
