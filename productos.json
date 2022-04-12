@@ -1,44 +1,44 @@
 [
     {
         "id":"1",
-        "nombre-producto":"Producto XYZ",
-        "img-producto":"assets/img/starwars/starwars(1).png",
-        "precio-producto":"$60.00",
-        "enlace-producto":"#"
+        "nombreProducto":"Producto XYZ",
+        "imgProducto":"assets/img/starwars/starwars(1).png",
+        "precioProducto":"$60.00",
+        "enlaceProducto":"#"
     },
     {
         "id":"2",
-        "nombre-producto":"Producto XYZ",
-        "img-producto":"assets/img/starwars/starwars(2).png",
-        "precio-producto":"$60.00",
-        "enlace-producto":"#"
+        "nombreProducto":"Producto XYZ",
+        "imgProducto":"assets/img/starwars/starwars(2).png",
+        "precioProducto":"$60.00",
+        "enlaceProducto":"#"
     },
     {
         "id":"3",
-        "nombre-producto":"Producto XYZ",
-        "img-producto":"assets/img/starwars/starwars(3).png",
-        "precio-producto":"$60.00",
-        "enlace-producto":"#"
+        "nombreProducto":"Producto XYZ",
+        "imgProducto":"assets/img/starwars/starwars(3).png",
+        "precioProducto":"$60.00",
+        "enlaceProducto":"#"
     },
     {
         "id":"4",
-        "nombre-producto":"Producto XYZ",
-        "img-producto":"assets/img/starwars/starwars(4).png",
-        "precio-producto":"$60.00",
-        "enlace-producto":"#"
+        "nombreProducto":"Producto XYZ",
+        "imgProducto":"assets/img/starwars/starwars(4).png",
+        "precioProducto":"$60.00",
+        "enlaceProducto":"#"
     },
     {
         "id":"5",
-        "nombre-producto":"Producto XYZ",
-        "img-producto":"assets/img/starwars/starwars(5).png",
-        "precio-producto":"$60.00",
-        "enlace-producto":"#"
+        "nombreProducto":"Producto XYZ",
+        "imgProducto":"assets/img/starwars/starwars(5).png",
+        "precioProducto":"$60.00",
+        "enlaceProducto":"#"
     },
     {
         "id":"6",
-        "nombre-producto":"Producto XYZ",
-        "img-producto":"assets/img/starwars/starwars(6).png",
-        "precio-producto":"$60.00",
-        "enlace-producto":"#"
+        "nombreProducto":"Producto XYZ",
+        "imgProducto":"assets/img/starwars/starwars(6).png",
+        "precioProducto":"$60.00",
+        "enlaceProducto":"#"
     }
 ]
