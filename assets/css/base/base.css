@@ -31,6 +31,7 @@ header{
     margin: 10px 0px;
 }
 main{
+    width: 80%;
     justify-content: center;
     align-items: center;
 }
@@ -76,7 +77,6 @@ main{
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 611px;
     background-color: var(--background-color);
 }
 .promotion{
@@ -86,7 +86,7 @@ main{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 32px;
+    /* padding: 32px; */
     position: static;
     width: 100%;
     height: 352px;
@@ -94,6 +94,8 @@ main{
     top: 115px;
     /* imagemhero */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../img/geeky-shots-hQ4BQ3wdHsQ-unsplash_m.jpg);
+    background-size: 100%;
+    background-position:center;
     /* Inside auto layout */
     flex: none;
     order: 1;
