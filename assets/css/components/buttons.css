@@ -1,24 +1,76 @@
-.button-console{
+.button-console {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 16px;
-    
+
     position: static;
     width: 129px;
     height: 51px;
     left: 0px;
     top: 119px;
-    
+
     /* Azul/100% */
-    
+
     background: #2A7AE4;
-    
+    color: #ffffff;
     /* Inside auto layout */
-    
+
     flex: none;
     order: 2;
     flex-grow: 0;
     margin: 16px 0px;
+}
+
+.button-contacto-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: #2A7AE4;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: #ffffff;
+}
+
+.button-ver-mas {
+    /* Auto layout */
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    padding: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: auto;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button-ver-mas:hover{
+    text-decoration: underline;
+}
+.ver-mas {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* Azul/100% */
+    color: #2A7AE4;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
 }

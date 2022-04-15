@@ -1,7 +1,12 @@
 @import url(../components/buttons.css);
 @import url(../base/variables.css);
-body{
-    width: 80%;
+
+* {
+    border-color: transparent;
+}
+
+body {
+    width: 100%;
     background-color: var(--background-color);
     color: var(--font-color-primary);
     font-family: var(--font-family-body);
@@ -10,7 +15,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-header{
+
+header {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -18,10 +24,7 @@ header{
     align-items: center;
     padding: 32px 0px;
     position: static;
-    width: 1136px;
-    height: 115px;
-    left: 152px;
-    top: 0px;
+    width: 90%;
     /* Preto/branco */
     background: var(--background-color);
     /* Inside auto layout */
@@ -29,13 +32,32 @@ header{
     order: 0;
     flex-grow: 0;
     margin: 10px 0px;
+    pad: 0 200px;
 }
-main{
-    width: 80%;
-    justify-content: center;
+
+main {
+    width: 100%;
     align-items: center;
+    justify-content: center;
 }
-.search-bar{
+
+.derecha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    height: 50px;
+    left: 0px;
+    top: 32.5px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.search-bar {
     /* Barra de pesquisa */
     /* Auto layout */
     display: flex;
@@ -49,14 +71,15 @@ main{
     top: 5px;
     /* Preto/05% */
     background: #F5F5F5;
-    border-radius: 20px;
+    border-radius: 30px;
     /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 32px;
+    margin: 0px 100px;
 }
-.login{
+
+.login {
     /* Botao */
     /* Auto layout */
     display: flex;
@@ -79,7 +102,8 @@ main{
     flex-grow: 0;
     background-color: var(--background-color);
 }
-.promotion{
+
+.promotion {
     /* Hero */
     /* Auto layout */
     display: flex;
@@ -95,7 +119,7 @@ main{
     /* imagemhero */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../../img/geeky-shots-hQ4BQ3wdHsQ-unsplash_m.jpg);
     background-size: 100%;
-    background-position:center;
+    background-position: center;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -104,7 +128,8 @@ main{
     margin: 0px auto;
     text-align: left;
 }
-.texto{
+
+.texto {
     position: static;
     width: 751px;
     height: 61px;
@@ -124,7 +149,8 @@ main{
     flex-grow: 0;
     margin: 16px 80px;
 }
-.texto-descuento{
+
+.texto-descuento {
     /* Productos selecionados con 33% de descuento */
     position: static;
     width: 751px;
@@ -145,7 +171,8 @@ main{
     flex-grow: 0;
     margin: 16px 80px;
 }
-.button-console{
+
+.button-console {
     /* Botao */
     /* Auto layout */
     display: flex;
@@ -166,16 +193,21 @@ main{
     flex-grow: 0;
     margin: 16px 80px;
 }
-.productsList{
+
+.productsList {
     padding: 40px;
+    width: 70%;
+    margin: 0 auto;
 }
-.section-title{
+.section-title-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section-title {
     /* Star Wars */
-    position: static;
-    width: 148px;
-    height: 38px;
-    left: 0px;
-    top: 0px;
+    display: flex;
+    flex-direction: row;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -185,35 +217,277 @@ main{
     /* Preto/100% */
     color: #464646;
     /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     text-align: left;
     margin: 0 40px 0 20px;
 }
 
-.star-wars-productos{
+.star-wars-productos {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
-.star-wars-productos li{
+
+.star-wars-productos li {
     width: 100%;
     margin: 20px 10px;
 }
-.imagen-producto{
+
+.imagen-producto {
     width: 100%;
     margin-bottom: 10px;
 }
-.info-producto{
+
+.info-producto {
     margin-bottom: 10px;
     color: var(--font-color-secondary);
 }
-.enlaceProducto{
+
+.enlaceProducto {
     margin-bottom: 10px;
     color: var(--font-color-primary);
     font-weight: 700;
     font-family: var(--font-family-body);
     text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EAF2FD;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px auto;
+
+}
+
+.info-footer {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 64px 0;
+    position: static;
+    width: 100%;
+    height: 360px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px auto;
+
+}
+
+.logo-footer {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 112px;
+}
+
+.QA-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 112px;
+}
+
+.qa-enlace {
+    position: static;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* Preto/100% */
+    color: #464646;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.qa-enlace a {
+    color: #464646;
+    text-decoration: none;
+}
+.qa-enlace:hover{
+    text-decoration: underline;
+}
+
+.contacto-footer {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    height: 240px;
+    left: 576px;
+    top: 0px;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 200px;
+}
+
+.contacto-footer p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* Preto/100% */
+    color: #464646;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.campos-contacto {
+    display: flex;
+    width: 200%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.nombre-contacto-footer {
+    position: static;
+    height: 56px;
+    left: calc(50% - 560px/2);
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.nombre-contacto-footer::placeholder {
+    position: static;
+    height: 16px;
+    left: calc(50% - 536px/2);
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+    /* Preto/50% */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.mensaje-contacto-footer {
+    position: static;
+    height: 82px;
+    left: calc(50% - 560px/2);
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.mensaje-contacto-footer::placeholder {
+    position: static;
+    height: 20px;
+    left: calc(50% - 304px/2 - 116px);
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    /* Preto/50% */
+    color: #A2A2A2;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.credits {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    left: 0px;
+    top: 368px;
+    /* Preto/branco */
+    background: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 100%;
+}
+
+.credits p {
+    width: 18%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    /* Preto/100% */
+    color: #464646;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
