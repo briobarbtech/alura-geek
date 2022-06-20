@@ -116,3 +116,9 @@
     flex-grow: 0;
     margin: 0px 8px;
 }
+ @media (max-width: 370px) {
+    .login {
+        width: 120px;
+        height: 40px;
+    }
+ }

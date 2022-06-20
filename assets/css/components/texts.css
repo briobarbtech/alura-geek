@@ -1,21 +1,7 @@
 .texto {
-    /* Texto */
-    /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px;
-    position: static;
-    width: 1136px;
-    height: 170px;
-    left: 152px;
-    top: 150px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 16px 0px;
+    margin: 0;
 }
 
 .--button-console-text {
