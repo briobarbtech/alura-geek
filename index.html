@@ -9,22 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base/reset.css">
-    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/base/style.css">
     <title>Alura GEEK</title>
 </head>
 <body>
     <header>
-        <div class="derecha">
-            <div class="logo">
-                <img class="logo-alurageek" src="assets/img/Vector.png" alt="logo con forma de gamepad de color azul">
-                <img src="assets/img/AluraGeek.png" alt="imagen con texto que dice Alura">
-                <img src="assets/img/AluraGeek (1).png" alt="imagen con texto que dice Geek">
-            </div>
-            <div><label for="search-bar"><input class="search-bar" id="search-bar" placeholder="¿Qué deseas buscar?"></label></div>
+        <div class="logo">
+            <img class="logo-alurageek" src="assets/img/Vector.png" alt="logo con forma de gamepad de color azul">
+            <img src="assets/img/AluraGeek.png" alt="imagen con texto que dice Alura">
+            <img src="assets/img/AluraGeek (1).png" alt="imagen con texto que dice Geek">
         </div>
-        <nav>
-            <button class="login" id="login">Login</button>
-        </nav>
+        <div><label for="search-bar"><input class="search-bar" id="search-bar" placeholder="¿Qué deseas buscar?"></label></div>
+        <button class="login" id="login">Login</button>
+
     </header>
     <main>
         <section class="promotion">
@@ -33,30 +30,7 @@
                 <button class="button-console">Ver consolas</button>
         </section>
         <section class="productsList" id="productsList">
-            <div id="section-star-wars">
-                <div class="section-title-button">
-                    <p class="section-title">Star Wars</p>
-                    <button class="button-ver-mas"><p class="ver-mas">Ver todo 🡪</button>
-                </div>
-                
-                <ul id="star-wars-productos" class="star-wars-productos">
-                    
-                </ul>
-            </div>
-            <div id="section-consoles">
-                <button class="ver-mas">Ver todo</button>
-                <p class="section-title">Consolas</p>
-                <ul id="consolas-productos" class="star-wars-productos">
-                    
-                </ul>
-            </div>
-            <div id="section-various">
-                <button class="ver-mas">Ver todo</button>
-                <p class="section-title">Diversos</p>
-                <ul id="varios-productos" class="star-wars-productos">
-                    
-                </ul>
-            </div>
+
         </section>
         <footer>
             <section class="info-footer">
@@ -81,8 +55,8 @@
                 <div class="contacto-footer">
                     <p>Hable con nosotros</p>
                     <div class="campos-contacto">
-                        <input type="text" class="nombre-contacto-footer" placeholder="Nombre" required>
-                        <input type="text" class="mensaje-contacto-footer" placeholder="Escribe tu mensaje" required>
+                        <input type="text" class="campo-texto-contacto" placeholder="Nombre" required>
+                        <input type="text" class="campo-texto-contacto" placeholder="Escribe tu mensaje" required>
                     </div>
                     <button type="submit" class="button-contacto-footer">Enviar mensaje</button>
                 </div>
@@ -92,6 +66,6 @@
             </section>
         </footer>
     </main>
-    <script type="module" src="js/crearProducto.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

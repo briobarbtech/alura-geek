@@ -5,15 +5,15 @@ const consolasProductos = document.querySelector("#consolas-productos");
 const variosProductos = document.querySelector("#varios-productos");
 
 var veces = 6;
-if(starwarsProductos.clientWidth < 800){       // Verifico el tamaño del Elemento antes de que llamen a los elementos
+/* if(starwarsProductos.clientWidth < 800){       // Verifico el tamaño del Elemento antes de que llamen a los elementos
     veces = 4                                   // Si es menor a 800ox solo va a llamar 4 elementos de la DB
 }else{
     veces = 6                                   // En caso contrario llama a 6
-};
+}; */
 
 starwarsProductos.addEventListener
 
-function crearTarjetaProducto(nombre,img,precio,enlace){
+function crearTarjetaProducto(nombre,img,precio,enlace, clase){
     const tarjetaDeProducto = `
     <li>
         <img class="imagen-producto" src="${img}" alt="">
@@ -21,7 +21,9 @@ function crearTarjetaProducto(nombre,img,precio,enlace){
         <p class="info-producto">${precio}</p>
         <a class="enlaceProducto" href="${enlace}">Ver producto</a>
     </li>` 
-    const nuevoProducto = document.createElement('li')
+    const nuevoProducto = document.createElement('li');
+    const nuevaSeccion = document.createElement('div');
+    nuevaSeccion.classList.add(clase);
     nuevoProducto.innerHTML = tarjetaDeProducto;
     return nuevoProducto
     
@@ -35,6 +37,6 @@ async function mostrarData(url,seccion){
         seccion.appendChild(nuevoProducto);
     }
 }
-mostrarData("https://briobarbtech.github.io/api-geek.github.io/productos.json",starwarsProductos)
-mostrarData("https://briobarbtech.github.io/api-geek.github.io/consoles.json",consolasProductos)
-mostrarData("https://briobarbtech.github.io/api-geek.github.io/various.json",variosProductos)
+mostrarData("https://briobarbtech.github.io/alura-geek/productos.json",starwarsProductos)
+mostrarData("https://briobarbtech.github.io/alura-geek/consoles.json",consolasProductos)
+mostrarData("https://briobarbtech.github.io/alura-geek/various.json",variosProductos)

@@ -4,41 +4,48 @@
         "nombreProducto":"Producto XYZ",
         "imgProducto":"assets/img/starwars/starwars(1).png",
         "precioProducto":"$60.00",
-        "enlaceProducto":"#"
+        "enlaceProducto":"#",
+        "class": "productos"
+
     },
     {
         "id":"2",
         "nombreProducto":"Producto XYZ",
         "imgProducto":"assets/img/starwars/starwars(2).png",
         "precioProducto":"$60.00",
-        "enlaceProducto":"#"
+        "enlaceProducto":"#",
+        "class": "productos"
     },
     {
         "id":"3",
         "nombreProducto":"Producto XYZ",
         "imgProducto":"assets/img/starwars/starwars(3).png",
         "precioProducto":"$60.00",
-        "enlaceProducto":"#"
+        "enlaceProducto":"#",
+        "class": "productos"
     },
     {
         "id":"4",
         "nombreProducto":"Producto XYZ",
         "imgProducto":"assets/img/starwars/starwars(4).png",
         "precioProducto":"$60.00",
-        "enlaceProducto":"#"
+        "enlaceProducto":"#",
+        "class": "productos"
     },
     {
         "id":"5",
         "nombreProducto":"Producto XYZ",
         "imgProducto":"assets/img/starwars/starwars(5).png",
         "precioProducto":"$60.00",
-        "enlaceProducto":"#"
+        "enlaceProducto":"#",
+        "class": "productos"
     },
     {
         "id":"6",
         "nombreProducto":"Producto XYZ",
         "imgProducto":"assets/img/starwars/starwars(6).png",
         "precioProducto":"$60.00",
-        "enlaceProducto":"#"
+        "enlaceProducto":"#",
+        "class": "productos"
     }
 ]

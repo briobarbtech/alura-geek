@@ -1,3 +1,24 @@
+/* LOGIN BUTTON */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 182px;
+    height: 51px;
+    left: 954px;
+    top: 32px;
+
+    color: var(--font-color-primary);
+    border: 1px solid var(--font-color-primary);
+    box-sizing: border-box;
+
+    background-color: var(--background-color);
+}
+
+/* CONSOLE BUTTON */
+
 .button-console {
     display: flex;
     flex-direction: row;
@@ -21,6 +42,27 @@
     order: 2;
     flex-grow: 0;
     margin: 16px 0px;
+}
+.button-console {
+    /* Botao */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 129px;
+    height: 51px;
+    left: 0px;
+    top: 119px;
+    /* Azul/100% */
+    background: #2A7AE4;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 80px;
 }
 
 .button-contacto-footer {
