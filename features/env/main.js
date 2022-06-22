@@ -1,5 +1,5 @@
-import { sections, products } from "./env/lists.js";
-import { createSection, createProduct } from "./create-section.js";
+import { sections, products } from "./lists.js";
+import { createSection, createProduct } from "../homepage/create-section.js";
 
 const listaDeProductos = document.getElementById('productsList');
 
@@ -17,3 +17,6 @@ products.forEach(sections => {
 })
 
 
+
+const sectionAllProducts = document.querySelector('main');
+sectionAllProducts.appendChild(createSection(allProducts));

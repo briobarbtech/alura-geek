@@ -13,8 +13,12 @@
     color: var(--font-color-primary);
     border: 1px solid var(--font-color-primary);
     box-sizing: border-box;
-
+    transition: .6s;
     background-color: var(--background-color);
+}
+.login:hover {
+    background-color: var(--font-color-primary);
+    color: var(--background-color);
 }
 
 /* CONSOLE BUTTON */
@@ -25,44 +29,14 @@
     justify-content: center;
     align-items: center;
     padding: 16px;
-
     position: static;
     width: 129px;
     height: 51px;
     left: 0px;
     top: 119px;
-
-    /* Azul/100% */
-
-    background: #2A7AE4;
-    color: #ffffff;
-    /* Inside auto layout */
-
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 16px 0px;
-}
-.button-console {
-    /* Botao */
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    position: static;
-    width: 129px;
-    height: 51px;
-    left: 0px;
-    top: 119px;
-    /* Azul/100% */
-    background: #2A7AE4;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 16px 80px;
+    background: var(--font-color-primary);
+    margin-bottom: 20px;
+    color: var(--background-color);
 }
 
 .button-contacto-footer {
@@ -71,7 +45,7 @@
     justify-content: center;
     align-items: center;
     padding: 16px;
-    background: #2A7AE4;
+    background: var(--font-color-primary);
 
     /* Inside auto layout */
 
@@ -96,6 +70,7 @@
     margin: auto;
     cursor: pointer;
     background-color: transparent;
+
 }
 
 .button-ver-mas:hover{
@@ -109,16 +84,16 @@
     line-height: 19px;
     /* identical to box height */
     /* Azul/100% */
-    color: #2A7AE4;
+    color: var(--font-color-primary);
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 8px;
 }
- @media (max-width: 370px) {
+@media (max-width: 596px) {
     .login {
         width: 120px;
-        height: 40px;
+        height: 20px;
     }
  }

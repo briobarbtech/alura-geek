@@ -1,0 +1,43 @@
+
+.button-contacto-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: var(--font-color-primary);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: var(--background-color);
+    border: 1px transparent;
+}
+.boton-login-submit {
+    width: 20%;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    background: var(--font-color-primary);
+    color: var(--background-color);
+    margin: 25px auto 0 auto;
+    border: 1px transparent;
+    transition: .6s;
+}
+.boton-login-submit:hover {
+    background-color: var(--background-color);
+    color: var(--font-color-primary);
+}
+
+@media (max-width: 460px) {
+    .boton-login-submit {
+        width: 80%;
+    }
+}

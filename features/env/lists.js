@@ -33,7 +33,7 @@ export const products = [
     product: {
       id: "1",
       nombreProducto: "Producto XYZ",
-      imgProducto: "assets/img/starwars/starwars(1).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/starwars/starwars(1).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
       class: "productos",
@@ -44,7 +44,7 @@ export const products = [
     product: {
       id: "2",
       nombreProducto: "Producto XYZ",
-      imgProducto: "assets/img/starwars/starwars(2).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/starwars/starwars(2).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
       class: "productos",
@@ -56,7 +56,7 @@ export const products = [
     product: {
       id: "3",
       nombreProducto: "Producto XYZ",
-      imgProducto: "assets/img/starwars/starwars(3).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/starwars/starwars(3).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
       class: "productos",
@@ -68,7 +68,7 @@ export const products = [
     product: {
       id: "4",
       nombreProducto: "Producto XYZ",
-      imgProducto: "assets/img/starwars/starwars(4).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/starwars/starwars(4).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
       class: "productos",
@@ -80,7 +80,7 @@ export const products = [
     product: {
       id: "5",
       nombreProducto: "Producto XYZ",
-      imgProducto: "assets/img/starwars/starwars(5).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/starwars/starwars(5).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
       class: "productos",
@@ -92,7 +92,7 @@ export const products = [
     product: {
       id: "6",
       nombreProducto: "Producto XYZ",
-      imgProducto: "assets/img/starwars/starwars(6).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/starwars/starwars(6).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
       class: "productos",
@@ -104,7 +104,7 @@ export const products = [
     product: {
       id: "1",
       nombreProducto: "Control XYZ",
-      imgProducto: "assets/img/consoles/consoles(1).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/consoles/consoles(1).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
     },
@@ -114,7 +114,7 @@ export const products = [
     product: {
       id: "2",
       nombreProducto: "Control y consola XYZ",
-      imgProducto: "assets/img/consoles/consoles(2).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/consoles/consoles(2).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
     },
@@ -124,7 +124,7 @@ export const products = [
     product: {
       id: "3",
       nombreProducto: "Consola XYZ",
-      imgProducto: "assets/img/consoles/consoles(3).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/consoles/consoles(3).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
     },
@@ -134,7 +134,7 @@ export const products = [
     product: {
       id: "4",
       nombreProducto: "Control XYZ",
-      imgProducto: "assets/img/consoles/consoles(4).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/consoles/consoles(4).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
     },
@@ -144,7 +144,7 @@ export const products = [
     product: {
       id: "5",
       nombreProducto: "Consola XYZ",
-      imgProducto: "assets/img/consoles/consoles(5).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/consoles/consoles(5).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
     },
@@ -154,7 +154,7 @@ export const products = [
     product: {
       id: "6",
       nombreProducto: "Gameboy Color XYZ",
-      imgProducto: "assets/img/consoles/consoles(6).png",
+      imgProducto: "https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/consoles/consoles(6).png",
       precioProducto: "$60.00",
       enlaceProducto: "#",
     },
@@ -164,7 +164,7 @@ export const products = [
     product: {
         "id":"1",
         "nombreProducto":"Camisa Atari",
-        "imgProducto":"assets/img/various/various(1).png",
+        "imgProducto":"https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/various/various(1).png",
         "precioProducto":"$60.00",
         "enlaceProducto":"#"
     }
@@ -174,7 +174,7 @@ export const products = [
     product: {
         "id":"2",
         "nombreProducto":"Camisa SNES",
-        "imgProducto":"assets/img/various/various(2).png",
+        "imgProducto":"https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/various/various(2).png",
         "precioProducto":"$60.00",
         "enlaceProducto":"#"
     }
@@ -184,7 +184,7 @@ export const products = [
     product: {
         "id":"3",
         "nombreProducto":"Control y consola XYZ",
-        "imgProducto":"assets/img/various/various(3).png",
+        "imgProducto":"https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/various/various(3).png",
         "precioProducto":"$60.00",
         "enlaceProducto":"#"
     }
@@ -194,7 +194,7 @@ export const products = [
     product: {
         "id":"4",
         "nombreProducto":"Control y consola XYZ",
-        "imgProducto":"assets/img/various/various(4).png",
+        "imgProducto":"https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/various/various(4).png",
         "precioProducto":"$60.00",
         "enlaceProducto":"#"
     }
@@ -204,7 +204,7 @@ export const products = [
     product: {
         "id":"5",
         "nombreProducto":"Control y consola XYZ",
-        "imgProducto":"assets/img/various/various(5).png",
+        "imgProducto":"https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/various/various(5).png",
         "precioProducto":"$60.00",
         "enlaceProducto":"#"
     }
@@ -214,9 +214,18 @@ export const products = [
     product: {
         "id":"6",
         "nombreProducto":"Producto XYZ",
-        "imgProducto":"assets/img/various/various(6).png",
+        "imgProducto":"https://raw.githubusercontent.com/briobarbtech/alura-geek/main/assets/img/various/various(6).png",
         "precioProducto":"$60.00",
         "enlaceProducto":"#"
     }
   }
 ];
+
+export const allProducts = {
+  id: "all-products-section",
+  className: "all-products-section",
+  classTitle: "title",
+  dataName: "section",
+  name: "Todos los productos",
+  ul: "list-products"
+}

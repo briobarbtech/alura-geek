@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../login.js"></script>
+    <script src="https://kit.fontawesome.com/93195478fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../assets/css/base/login/style.css">
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header>
+        <div class="bar">
+            <a href="" class="logo">
+                <img class="logo-alurageek" src="../../../assets/img/Vector.png" alt="logo con forma de gamepad de color azul">
+                <img class="logo-alurageek" src="../../../assets/img/AluraGeek.png" alt="imagen con texto que dice Alura">
+                <img class="logo-alurageek" src="../../../assets/img/AluraGeek (1).png" alt="imagen con texto que dice Geek">
+            </a>
+            <div>
+                <label for="search-bar"></label>
+                <input class="search-bar" id="search-bar" placeholder="¿Qué deseas buscar?">
+            </div>
+            <a class="login" href="./features/login/screens/login.html">
+                <button class="login" id="login">Login</button>
+            </a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <main>
+        <section id="login-section" class="login-section">
+            <p id="title-login" class="title-login">
+                    Iniciar Sesión
+            </p>
+            <form action="" id="formulario-login" class="formulario-login">
+                <input type="text" placeholder="Escriba su correo electrónico">
+                <input type="password" placeholder="escriba su contraseña">
+                <button type="submit" class="boton-login-submit" onClick="redirect()">Entrar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section class="info-footer">
+            <div class="logo-footer">
+                <div class="logo -footer-logo">
+                    <img class="logo-alurageek -footer-logo" src="../../../assets/img/Vector.png" alt="logo con forma de gamepad de color azul">
+                    <img class="logo-alurageek -footer-logo" src="../../../assets/img/AluraGeek.png" alt="imagen con texto que dice Alura">
+                    <img class="logo-alurageek -footer-logo" src="../../../assets/img/AluraGeek (1).png" alt="imagen con texto que dice Geek">
+                </div>
+            </div>
+            <div class="QA-footer">
+                <ul>
+                    <li class="qa-enlace"><a href="">Quienes somos</a></li>
+                    <li class="qa-enlace"><a href="">Política de privacidad</a></li>
+                    <li class="qa-enlace"><a href="">Programa de fidelidad</a></li>
+                    <li class="qa-enlace"><a href="">Nuestras tiendas</a></li>
+                    <li class="qa-enlace"><a href="">Quiero ser franquiciado</a></li>
+                    <li class="qa-enlace"><a href="">Anuncie aquí</a></li>
+
+                </ul>
+            </div>
+            <div class="contacto-footer">
+                <p>Hable con nosotros</p>
+                <div class="campos-contacto">
+                    <input type="text" class="campo-texto-contacto" placeholder="Nombre" required>
+                    <input type="text" class="campo-texto-contacto" placeholder="Escribe tu mensaje" required>
+                </div>
+                <button type="submit" class="button-contacto-footer">Enviar mensaje</button>
+            </div>
+        </section>
+        <section class="credits">
+            <p>Desarrollado con ❤️ por Brian Barquesi 2022</p>
+        </section>
+    </footer>
+</body>
+</html>
