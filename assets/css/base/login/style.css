@@ -168,6 +168,9 @@ footer {
         width: 40px;
         margin: 0;
     }
+    .bar {
+        justify-content: space-between;
+    }
     .search-bar {
         display: none;
     }
@@ -192,5 +195,9 @@ footer {
         flex-direction: column;
         height: max-content;
         padding-top: 20px;
+        text-align: center;
+    }
+    .info-footer p {
+        text-align: start;
     }
 }

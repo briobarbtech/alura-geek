@@ -10,9 +10,10 @@ export const createSection = sections => {
     let nameP = document.createElement('p');
     nameP.innerHTML = sections.name;
     nameP.classList.add(sections.classTitle);
-    let buttonAddProduct = document.createElement('button');
+    let buttonAddProduct = document.createElement('a');
     buttonAddProduct.classList.add('button-add');
     buttonAddProduct.classList.add('add-product');
+    buttonAddProduct.setAttribute('href', '../../addproduct/screens/addproduct.html')
     buttonAddProduct.innerHTML = 'Agregar Producto';
     nombreSeccion.appendChild(nameP);
     nombreSeccion.appendChild(buttonAddProduct);
